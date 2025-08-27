@@ -1,5 +1,7 @@
 CREATE DATABASE crypto_db;
 
+\c crypto_db
+
 CREATE TABLE crypto_prices (
     id TEXT,
     symbol TEXT,
