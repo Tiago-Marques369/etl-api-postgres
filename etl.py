@@ -36,7 +36,7 @@ csv_filename = f"data/crypto_prices_{timestamp}.csv"
 df.to_csv(csv_filename, index=False)
 print(f"✅ CSV salvo em: {csv_filename}")
 
-# 4. Carregar no banco (AGORA COM VARIÁVEIS DE AMBIENTE)
+# 4. Carregar no banco (COM VARIÁVEIS DE AMBIENTE / .env)
 try:
     # Buscar variáveis do ambiente
     DB_USER = os.getenv("DB_USER")

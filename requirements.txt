@@ -1,5 +1,5 @@
-requests
-pandas
-sqlalchemy
-psycopg2-binary   # Postgres
-python-dotenv     # Variaveis de Ambiente
+requests==2.31.0
+pandas==2.0.3
+SQLAlchemy==2.0.20
+psycopg2-binary==2.9.7
+python-dotenv==1.0.0
